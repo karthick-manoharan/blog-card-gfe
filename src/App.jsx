@@ -9,18 +9,18 @@ function App() {
             <picture>
                 <source
                     type="image/avif"
-                    srcSet="/img/spacejoy-YqFz7UMm8qE-unsplash.avif"
+                    srcSet={`${import.meta.env.BASE_URL}img/spacejoy-YqFz7UMm8qE-unsplash.avif`}
                 />
                 <source
                     type="image/webp"
-                    srcSet="/img/spacejoy-YqFz7UMm8qE-unsplash.webp"
+                    srcSet={`${import.meta.env.BASE_URL}img/spacejoy-YqFz7UMm8qE-unsplash.webp`}
                 />
                 <img
                     decoding="async"
                     fetchpriority="high"
                     width="640"
                     height="640"
-                    src="/img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+                    src={`${import.meta.env.BASE_URL}img/spacejoy-YqFz7UMm8qE-unsplash.jpg`}
                     alt="Interior image of a living room"
                 />
             </picture>
